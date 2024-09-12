@@ -4,7 +4,7 @@ import img from "../../assets/Img.jpg"
 const Banner = () => {
   return (
     <>
-    <div className='flex flex-col md:flex-row max-w-screen-2xl container mx-auto md:px-20 px-4'>
+    <div className='flex flex-col md:flex-row max-w-screen-2xl container mx-auto md:px-20 px-4 my-10'>
         <div className="md:order-1 order-2 w-full md:w-1/2 mt-12 md:mt-26 text-left">
         <div className='space-y-10'>
         <h1 className='text-4xl font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span className='text-red-300'>Accusamus, aut nulla !!!</span></h1>

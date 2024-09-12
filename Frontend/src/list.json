@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name":"Rice",
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
+        "price":50,
+        "category":"grains",
+        "image":"https://img.freepik.com/premium-photo/sticky-rice-paddy-organic-natural-product-product-thailand_249011-1850.jpg?w=900"
+    },
+    {
+        "id":2,
+        "name":"Dal",
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
+        "price":50,
+        "category":"grains",
+        "image":"https://img.freepik.com/premium-photo/sticky-rice-paddy-organic-natural-product-product-thailand_249011-1850.jpg?w=900"
+    },
+    {
+        "id":3,
+        "name":"Wheat",
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
+        "price":50,
+        "category":"grains",
+        "image":"https://img.freepik.com/premium-photo/sticky-rice-paddy-organic-natural-product-product-thailand_249011-1850.jpg?w=900"
+    },
+    {
+        "id":4,
+        "name":"Chana",
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
+        "price":50,
+        "category":"grains",
+        "image":"https://img.freepik.com/premium-photo/sticky-rice-paddy-organic-natural-product-product-thailand_249011-1850.jpg?w=900"
+    },
+    {
+        "id":5,
+        "name":"Mustard",
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
+        "price":50,
+        "category":"grains",
+        "image":"https://img.freepik.com/premium-photo/sticky-rice-paddy-organic-natural-product-product-thailand_249011-1850.jpg?w=900"
+    },
+    {
+        "id":6,
+        "name":"Jowar",
+        "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
+        "price":50,
+        "category":"grains",
+        "image":"https://img.freepik.com/premium-photo/sticky-rice-paddy-organic-natural-product-product-thailand_249011-1850.jpg?w=900"
+    }
+]
