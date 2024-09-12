@@ -1,6 +1,25 @@
-import React from 'react'
+import React from 'react';
+import {useState,useEffect} from 'react';
 
 const Navbar = () => {
+  //useState hook for changing the state of navbar
+  //useState--> is used to manage and update state
+
+  //useEffect()--> is used for handling side effects during component mount, update, and unmount.
+  const[sticky,setSticky]= useState(false);
+
+  useEffect(()=>{
+    const handleScroll=()=>{
+      if(window.scroll>0){
+        setSticky(true);
+      }
+      else{
+        setSticky(false);
+      }
+    }
+
+  },[])
+
     const navItems = (
         <>
         <li><a>Home</a></li>
@@ -10,8 +29,8 @@ const Navbar = () => {
         </>
     )
   return (
-    <div className = " max-w-screen-2xl container mx-auto md:px-20 px-4">
-    <div className="navbar bg-base-100">
+    <div className = "max-w-screen-2xl container mx-auto md:px-20 px-4 fixed top-0 right-0 left-0">
+    <div className="navbar bg-base-200">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -61,7 +80,7 @@ const Navbar = () => {
 
   {/* sun icon */}
   <svg
-    className="swap-off h-10 w-10 fill-current"
+    className="swap-off h-7 w-7 fill-current"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24">
     <path
@@ -70,7 +89,7 @@ const Navbar = () => {
 
   {/* moon icon */}
   <svg
-    className="swap-on h-8 w-8 fill-current"
+    className="swap-on h-7 w-7 fill-current"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24">
     <path
@@ -78,7 +97,7 @@ const Navbar = () => {
   </svg>
 </label>
 <div className=''>
-<a className="bg-black text-white py-2 px-3 rounded-md hover:bg-slate-800 duration-300 cursor-pointer ">Login</a>
+<a className="bg-black text-white py-2 px-3 rounded-md hover:bg-slate-500 duration-300 cursor-pointer ">Login</a>
 </div>
  
     
