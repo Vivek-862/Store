@@ -27,8 +27,9 @@ const Navbar = () => {
     const navItems = (
         <>
         <li><a href="/">Home</a></li>
-        <li><a href="/Products">Products</a></li>
-        <li><a>Contact</a></li>
+        <li><a href="/Vegetables">Vegetables</a></li>
+        <li><a href="/Grains">Grains</a></li>
+        {/* <li><a href="/Contact">Contact</a></li> */}
         <li><a>About</a></li>
         </>
     )

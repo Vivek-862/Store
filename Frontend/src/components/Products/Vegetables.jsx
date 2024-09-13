@@ -1,23 +1,19 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
-import Material from '../Material/Material'
-import list from "../../list.json"
-console.log(list);
+import Veg from '../Veg/Veg'
 
-
-const Products = () => {
+const Vegetables = () => {
   return (
     <> 
     <Navbar/>
     <div className='min-h-screen'>
-    <Material/>
+    <Veg/>
     </div>
-    
     <Footer/>
 
     </>
   )
 }
 
-export default Products
+export default Vegetables

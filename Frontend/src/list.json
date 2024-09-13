@@ -49,7 +49,7 @@
     },
     {
         "id":7,
-        "name":"Jowar",
+        "name":"Wheat",
         "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
         "price":50,
         "category":"grains",
@@ -57,7 +57,7 @@
     },
     {
         "id":8,
-        "name":"Jowar",
+        "name":"Dal",
         "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
         "price":50,
         "category":"grains",
@@ -65,7 +65,7 @@
     },
     {
         "id":9,
-        "name":"Jowar",
+        "name":"Mustard Seeds",
         "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
         "price":50,
         "category":"grains",
@@ -73,7 +73,7 @@
     },
     {
         "id":10,
-        "name":"Jowar",
+        "name":"Chana",
         "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
         "price":50,
         "category":"grains",
@@ -81,7 +81,7 @@
     },
     {
         "id":11,
-        "name":"Jowar",
+        "name":"Rajma",
         "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
         "price":50,
         "category":"grains",

@@ -1,7 +1,11 @@
 import React from 'react'
 
 const Cards = ( {item} ) => {
+  if (!item) {
+    return <p>No data available</p>;  // Handle cases where item is undefined
+  }
   console.log(item);
+
   return (
     <>
     <div className='mt-4 my-3 p-3'>
@@ -14,9 +18,9 @@ const Cards = ( {item} ) => {
     <div className="card-body">
     <h2 className="card-title">
       {item.name}
-      <div className="badge badge-success">Fresh</div>
+      <div className="badge badge-success">new</div>
     </h2>
-    <p>{item.title}</p>
+    <p>{item.title }</p>
     <div className="card-actions justify-between">
       <div className="badge badge-outline">Rs.{item.price} per. kg </div>
       <div className="hover:bg-red-200 badge badge-outline">Buy Now</div>

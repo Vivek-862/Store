@@ -6,7 +6,7 @@ import list from "../../../src/list.json"
 import Cards from "../Cards/Cards"
 
 const Product = () => {
-    const filterData= list.filter((data)=> data.category == "veg");
+    const filterData= list.filter((data)=> data.category == "veg" || data.category == "grains");
 
     var settings = {
         dots: true,
@@ -47,7 +47,7 @@ const Product = () => {
     <>
     <div className='text-start max-w-screen-2xl container mx-auto md:px-20 px-4'>
         <div>
-        <h1 className='font-semibold text-xl pb-2'>Best Quality </h1>
+        <h1 className='font-semibold text-xl pb-2'>Best Quality Products </h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nulla ab ea.</p>
         </div>
   
@@ -56,7 +56,7 @@ const Product = () => {
         {/* "props" ais way to pass data from parent component to child component,
         props allows, components to be dynamic and flexible, once they receive different data and render accordingly. */}
         {filterData.map((item)=>(
-            <Cards item={item} key={item.id}/>
+            <Cards item={item} key={item.id} />
         ))}
       </Slider>
     </div>
