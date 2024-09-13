@@ -26,14 +26,14 @@ const Navbar = () => {
 
     const navItems = (
         <>
-        <li><a>Home</a></li>
-        <li><a>Product</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/Products">Products</a></li>
         <li><a>Contact</a></li>
         <li><a>About</a></li>
         </>
     )
   return (
-    <div className = {`max-w-screen-2xl container mx-auto md:px-20 px-4 fixed top-0 right-0 left-0  ${sticky?"sticky-navbar shadow-md bg-base-200  transition-all ease-in-out ":" "}`}>
+    <div className = {`max-w-screen-2xl container mx-auto md:px-20 px-4 fixed top-0 right-0 left-0 z-50 ${sticky?"sticky-navbar shadow-md bg-base-200  transition-all ease-in-out ":" "}`}>
     <div className="navbar">
   <div className="navbar-start">
     <div className="dropdown">

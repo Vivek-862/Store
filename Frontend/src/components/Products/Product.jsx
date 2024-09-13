@@ -3,16 +3,17 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import list from "../../../src/list.json"
+import Cards from "../Cards/Cards"
 
 const Product = () => {
-    const filterData= list.filter((data)=> data.category == "grains");
+    const filterData= list.filter((data)=> data.category == "veg");
 
     var settings = {
         dots: true,
         infinite: false,
         speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         initialSlide: 0,
         responsive: [
           {
@@ -41,40 +42,24 @@ const Product = () => {
           }
         ]
       };
-    console.log(filterData);
+ 
   return (
     <>
     <div className='text-start max-w-screen-2xl container mx-auto md:px-20 px-4'>
+        <div>
         <h1 className='font-semibold text-xl pb-2'>Best Quality </h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nulla ab ea.</p>
-    </div>
+        </div>
+  
     <div  className="slider-container">
     <Slider {...settings}>
-        <div>
-          <h3>1</h3>
-        </div>
-        <div>
-          <h3>2</h3>
-        </div>
-        <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
-        </div>
-        <div>
-          <h3>7</h3>
-        </div>
-        <div>
-          <h3>8</h3>
-        </div>
+        {/* "props" ais way to pass data from parent component to child component,
+        props allows, components to be dynamic and flexible, once they receive different data and render accordingly. */}
+        {filterData.map((item)=>(
+            <Cards item={item} key={item.id}/>
+        ))}
       </Slider>
+    </div>
     </div>
     </>
   )
