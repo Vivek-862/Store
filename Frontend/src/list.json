@@ -10,26 +10,26 @@
     {
         "id":2,
         "name":"Tomato",
-        "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
+        "title":"Fresh hand picked Tomato",
         "price":50,
         "category":"veg",
-        "image":"https://img.freepik.com/premium-photo/sticky-rice-paddy-organic-natural-product-product-thailand_249011-1850.jpg?w=900"
+        "image":"https://images.pexels.com/photos/1367242/pexels-photo-1367242.jpeg?cs=srgb&dl=pexels-rauf-allahverdiyev-561368-1367242.jpg&fm=jpg"
     },
     {
         "id":3,
         "name":"Potato",
-        "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
+        "title":"description about product",
         "price":50,
         "category":"veg",
-        "image":"https://img.freepik.com/premium-photo/sticky-rice-paddy-organic-natural-product-product-thailand_249011-1850.jpg?w=900"
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQuNCPhS0OZ5wO7xI3a6B97MaDuZ2Qc-vc0Q&s"
     },
     {
         "id":4,
         "name":"Pumkin",
-        "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
+        "title":"Indian Quality",
         "price":50,
         "category":"veg",
-        "image":"https://img.freepik.com/premium-photo/sticky-rice-paddy-organic-natural-product-product-thailand_249011-1850.jpg?w=900"
+        "image":"https://static6.depositphotos.com/1066961/552/i/450/depositphotos_5528030-stock-photo-pumpkins.jpg"
     },
     {
         "id":5,
@@ -37,7 +37,7 @@
         "title":"Lorem ipsum dolor sit amet consectetur adipisicing",
         "price":50,
         "category":"veg",
-        "image":"https://img.freepik.com/premium-photo/sticky-rice-paddy-organic-natural-product-product-thailand_249011-1850.jpg?w=900"
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsAPzkg4qHjFac5jZRJA5B50rvaYXxSOR7YQ&s"
     },
     {
         "id":6,

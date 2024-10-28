@@ -7,10 +7,11 @@ const Banner = () => {
     <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10'>
         <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-36">
         <div className='space-y-10'>
-        <h1 className='text-4xl font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span className='text-red-300'>Accusamus, aut nulla !!!</span></h1>
-           <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Voluptate optio libero vitae. Quaerat laborum fugiat culpa placeat,
-            iure doloremque. Soluta doloremque debitis magnam assumenda ?
+        <h1 className='text-4xl font-semibold'>Providing Best Quality and Fresh prodcts from Farm to Consumer is out motto.<br/> <span className='text-red-300'>Fresh & Best Quality Products!</span></h1>
+           <p className='text-xl'>"Fresh from the farm, straight to your door,
+Natural goodness, delivered pure and more.
+Healthy choices, made easy and clear,
+Farm to you, bringing nature near!"
             </p>
 
             <label className="input input-bordered flex items-center gap-2">

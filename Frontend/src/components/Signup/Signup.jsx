@@ -35,15 +35,33 @@ const Signup = () => {
                {...register("email", { required: true })}/>
                {errors.email && <span className='text-sm text-red-500 justify-items-start text-left px-2'>This field is required</span>}
            </div>
-           {/* password */}
+           {/* Age */}
            <div className='flex flex-col mt-4'>
+               <span className='justify-items-start text-left p-1'>Age</span>
+               <input type="age"
+               placeholder='Enter your Age'
+               className='px-3 border rounded-md outline-none text-green-500' 
+               {...register("number", { required: true })}/>
+               {errors.email && <span className='text-sm text-red-500 justify-items-start text-left px-2'>This field is required</span>}
+           </div>
+           {/* Country */}
+           <div className='flex flex-col mt-4'>
+               <span className='justify-items-start text-left p-1'>Country</span>
+               <input type="text"
+               placeholder='Enter your Age'
+               className='px-3 border rounded-md outline-none text-green-500' 
+               {...register("text", { required: true })}/>
+               {errors.email && <span className='text-sm text-red-500 justify-items-start text-left px-2'>This field is required</span>}
+           </div>
+           {/* password */}
+           {/* <div className='flex flex-col mt-4'>
                <span className='justify-items-start text-left p-1'>Password</span>
                <input type="password"
                placeholder='Enter your Password'
                className='px-4 border rounded-md outline-none text-green-500'
                {...register("password", { required: true })} />
                {errors.password && <span className='text-sm text-red-500 justify-items-start text-left px-2'>This field is required</span>}
-           </div>
+           </div> */}
            {/* login button */}
             <div className=" mt-4 mx-5">
            <button className='bg-black text-white py-1 px-4 rounded-md hover:bg-green-400 duration-300 cursor-pointer '>Register</button>
